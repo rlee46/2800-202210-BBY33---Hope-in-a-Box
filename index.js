@@ -85,7 +85,7 @@ app.use(express.urlencoded({
 }));
 
 app.use(session({
-    secret: "eclipse is the worse IDE",
+    secret: "hope in a box",
     name: "stanleySessionID",
     resave: false,
     saveUninitialized: true
